@@ -12,6 +12,7 @@ const ImageGallery = () => {
           sizes="(max-width: 600px) 50vw, 1024px"
           src={desktopImagePath}
           alt={`Creation Image ${item.id}`}
+          className="image"
         />
         <div className="image-text">{item.text}</div>
       </div>
